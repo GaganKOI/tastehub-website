@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | TasteHub</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">TasteHub</div>
+
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active-link">About</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="community.html">Community</a>
+        <a href="media.html">Media</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero small-hero">
+      <div class="container">
+        <p class="section-tag light-tag">About TasteHub</p>
+        <h1>A shared space for recipes, culture, and food inspiration</h1>
+        <p class="page-hero-text">
+          TasteHub is a Food Recipe Sharing Community website created to connect food lovers,
+          celebrate diverse cuisines, and make recipe discovery more enjoyable and engaging.
+        </p>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="container about-grid">
+        <div class="about-text">
+          <p class="section-tag">Who We Are</p>
+          <h2>A modern platform designed for people who love cooking and sharing</h2>
+          <p>
+            TasteHub is a creative recipe-sharing website concept that allows users to explore
+            dishes, discover cooking inspiration, and enjoy food-related content in a clean and
+            user-friendly environment.
+          </p>
+
+          <p id="extra-about-text" class="hidden-about-text">
+            The website was designed to present recipes in an appealing way while also building
+            a sense of community among people who enjoy preparing meals, trying new flavours,
+            and learning from each other’s food experiences. Rather than being just a simple
+            collection of recipe pages, TasteHub represents a space where food, culture,
+            creativity, and connection come together.
+          </p>
+
+          <button class="about-toggle-btn" id="aboutToggleBtn">Read More</button>
+        </div>
+
+        <div class="about-image-card">
+          <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1200&q=80" alt="Fresh vegetables, herbs, and ingredients arranged on a table">
+        </div>
+      </div>
+    </section>
+
+    <section class="mission-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-tag">Explore Our Core</p>
+          <h2>What drives TasteHub</h2>
+        </div>
+
+        <div class="about-tabs">
+          <button class="about-tab-btn active" data-about-tab="purpose">Our Purpose</button>
+          <button class="about-tab-btn" data-about-tab="vision">Our Vision</button>
+          <button class="about-tab-btn" data-about-tab="identity">Our Identity</button>
+        </div>
+
+        <div class="about-tab-content active" id="purpose">
+          <article class="info-card">
+            <h3>Our Purpose</h3>
+            <p>
+              To provide an accessible and visually engaging platform where recipes can be shared,
+              explored, and enjoyed by a growing community of food enthusiasts.
+            </p>
+          </article>
+        </div>
+
+        <div class="about-tab-content" id="vision">
+          <article class="info-card">
+            <h3>Our Vision</h3>
+            <p>
+              To inspire people to appreciate global food culture, experiment with new ideas,
+              and feel more connected through the universal language of cooking.
+            </p>
+          </article>
+        </div>
+
+        <div class="about-tab-content" id="identity">
+          <article class="info-card">
+            <h3>Our Identity</h3>
+            <p>
+              TasteHub combines modern design, simple navigation, and community-focused content
+              to create a warm and inviting online food experience.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-highlight">
+      <div class="container highlight-box">
+        <div class="highlight-text">
+          <p class="section-tag">Why TasteHub Matters</p>
+          <h2>Food is not only about recipes — it is also about stories, memories, and culture</h2>
+          <p>
+            TasteHub encourages users to move beyond simply reading recipes. It promotes a more
+            meaningful experience where food becomes a way to connect with others, explore
+            traditions, and share personal creativity through cooking.
+          </p>
+        </div>
+
+        <div class="highlight-stats">
+          <div class="stat-card interactive-stat">
+            <h3 class="counter" data-target="100">0</h3>
+            <p>Creative Recipes</p>
+          </div>
+          <div class="stat-card interactive-stat">
+            <h3 class="counter" data-target="50">0</h3>
+            <p>Shared Stories</p>
+          </div>
+          <div class="stat-card interactive-stat">
+            <h3 class="counter" data-target="25">0</h3>
+            <p>Food Cultures</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 TasteHub. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
